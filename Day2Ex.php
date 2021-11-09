@@ -36,7 +36,57 @@
            ?>
 
 
+<br>
+<?php
 
+
+function adding($num1, $num2, $num3, $sum4){
+    $sum = $num1 * $num2 + $num3 / $sum4 ;
+    return $sum;
+
+}
+    $sum = adding(3, 4, 5, 3);
+    echo $sum;
+
+   ?> 
+
+<br>
+<br>
+<br>
+<br>
+
+<?php
+       $marks = array(
+           "Georg" => array
+               (
+               "Physics" => 35,
+               "Maths" => 30,
+               "Chemistry"  => 39
+               ),
+           "Lisa" =>  array
+               (
+               "Physics" => 30,
+               "Maths" => 32,
+               "Chemistry"  => 29
+               ),
+           "Eric" =>  array
+               (
+               "Physics" => 31,
+               "Maths" => 22,
+               "Chemistry" => 39
+               )
+           );
+       /* Accessing multidimensional array values */
+       echo "Marks for Georg in Physics: ";
+       echo $marks['Georg']['Physics'] . "<br/>" ;
+       echo "Marks for Lisa in Maths: ";
+       echo $marks['Lisa']['Maths'] . "<br/>" ;
+       echo "Marks for Eric in Chemistry:"
+       echo $marks['Eric']['Chemistry'] .  "<br/>" ;
+
+       
+
+    ?>
 
 
 </body>
