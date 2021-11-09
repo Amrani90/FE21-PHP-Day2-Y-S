@@ -76,7 +76,7 @@ function adding($num1, $num2, $num3, $sum4){
                "Chemistry" => 39
                )
            );
-       /* Accessing multidimensional array values */
+       
        echo "Marks for Georg in Physics: ";
        echo $marks['Georg']['Physics'] . "<br/>" ;
        echo "Marks for Lisa in Maths: ";
